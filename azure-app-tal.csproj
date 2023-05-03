@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_tal</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/97d63496-7091-4bcc-9ca4-1a87c8e2d1a0/resourceGroups/az-group-tal/providers/microsoft.insights/components/azure-app-tal</ApplicationInsightsResourceId>
+    <UserSecretsId>b9424551-07dd-4d4a-beee-6f6caa1dd86a</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
